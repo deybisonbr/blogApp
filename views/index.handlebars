@@ -1,0 +1,35 @@
+<div class="bg-light p-5 rounded-lg m-3">
+  <h1 class="display-4">Seja Bem-Vindo ao Blog Node.app</h1>
+  <p class="lead">Esse site foi criado com uma forma de experimento e aprendizado do nodeJS</p>
+  <hr class="my-4">
+  <p>Aqui haverá varios testes relacionados ao node para que possa ser adquirido conhecimento com a ferramente nodeJS, uma forma de aprender e testar tudo o que essa maravilhosa tecnologia nos apresenta.</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="/usuarios/registro" role="button">Crie uma conta</a>
+  </p>
+</div>
+
+<hr>
+
+<h2>Posagens recentes:</h2>
+
+{{#each postagens}}
+
+<div class="card mt-3">
+  <div class="card-header">
+    <h4>{{titulo}}</h4>
+  </div>
+
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+      {{descricao}}
+    </blockquote>
+    <br>
+        <a href="/postagem/{{slug}}"><button class="btn btn-success">Leia Mais</button></a>
+        <hr>
+        <small>Categoria: <a href="/categoria/{{categoria.slug}}">{{categoria.nome}}</a></small> <br>
+        <small>Data de Publicação: {{data}}</small>
+  </div>
+</div>
+{{else}}
+<h3>Nenhuma postagem</h3>
+{{/each}}

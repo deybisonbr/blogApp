@@ -1,0 +1,9 @@
+<h3>Lista de categorias:</h3>
+
+{{#each categorias}}
+<div class="list-group">
+  <a href="/categorias/{{slug}}" class="list-group-item list-group-item-action">{{nome}}</a>
+</div>
+{{else}}
+<h4>Não possui nenhuma categoria listada</h4>
+{{/each}}
