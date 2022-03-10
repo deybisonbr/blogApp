@@ -1,2 +1,2 @@
 # blogApp
- Blog criado ultilizando node como back-end
+ Blog criado com Backend estruturado com nodeJS e ultilizando o mongoDB como data base
