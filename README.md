@@ -9,3 +9,4 @@
  Mongoose
  *
  Demo : https://blog-app-teste.herokuapp.com/
+https://blog-app-teste.herokuapp.com/admin
