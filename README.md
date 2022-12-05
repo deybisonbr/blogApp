@@ -9,6 +9,6 @@
  Mongoose
  
  
-Demo : https://blog-app-teste-deploy.vercel.app/
+Demo : https://blog-app-teste.vercel.app/
 
-Painel Admin: https://blog-app-teste-deploy.vercel.app//admin
+Painel Admin: https://blog-app-teste.vercel.app/admin
