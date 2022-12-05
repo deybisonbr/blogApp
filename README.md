@@ -8,5 +8,6 @@
  Express-handlebars
  Mongoose
  *
- Demo : https://blog-app-teste.herokuapp.com/
-https://blog-app-teste.herokuapp.com/admin
+Demo : https://blog-app-teste-deploy.vercel.app/
+
+Painel Admin: https://blog-app-teste-deploy.vercel.app//admin
